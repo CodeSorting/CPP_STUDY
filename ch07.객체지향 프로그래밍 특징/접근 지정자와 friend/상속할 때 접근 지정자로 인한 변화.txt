@@ -1,0 +1,13 @@
+부모 클래스 멤버	 /상속 접근 지정자  /자식 클래스에서의 접근 제한
+public	         public	            public
+public	         protected	            protected
+public	         private	            접근 불가
+protected	         public	            protected
+protected	         protected	            protected
+protected	         private	            접근 불가
+private	         상속과 무관	    접근 불가
+상속 접근 지정자 : class Child : () Parent할 때 ()안에 들어가는 접근 지정자이다.
+
+friend 클래스 : private, protected 멤버를 특정 클래스에서만 public처럼 접근할 수 있다. (friend 키워드로 이용)
+friend 함수 : 외부의 특정 함수가 내부의 모든 멤버에 접근할 수 있도록 허락하는 것
+* friend는 객체지향의 특징인 추상화와 은닉화를 망칠 수도 있으니 가급적 안 쓰는게 좋다.
